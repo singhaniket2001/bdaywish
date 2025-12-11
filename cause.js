@@ -1,22 +1,22 @@
  // Reasons database
  const reasons = [
     { 
-        text: "You’re such a kind and wonderful person, and I feel lucky to share such a good bond with you. 💖", 
+        text: "Em dễ thương và tử tế đến mức anh thấy mình đúng là có phúc lắm mới quen được một người như em đó. 💖", 
         emoji: "🌟",
         gif: "gif1.gif"
     },
     { 
-        text: "May your day be filled with love, laughter, and endless joy. 🌸 ", 
+        text: "Chúc ngày hôm nay của em tràn ngập yêu thương, tiếng cười và niềm vui bất tận nha. 🌸", 
         emoji: "💗",
         gif: "gif2.gif"
     },
     { 
-        text: "Wishing you success, happiness, and everything your heart desires. ✨ ", 
+        text: "Chúc em luôn gặp may mắn, hạnh phúc và đạt được tất cả điều mà trái tim bé nhỏ nhưng mạnh mẽ của em mong muốn. ✨", 
         emoji: "💕",
         gif: "gif1.gif"
     },
     { 
-        text: "Stay the amazing girl you are—always spreading positivity around. Have the happiest year ahead! 🥳 ", 
+        text: "Mãi giữ nguyên độ dễ thương và năng lượng tích cực như hiện tại nha vợ. Mong tuổi mới của em rực rỡ hết cỡ! 🥳", 
         emoji: "🌟",
         gif: "gif2.gif"
     }
@@ -65,7 +65,7 @@ function displayNewReason() {
         reasonsContainer.appendChild(card);
         
         // Update counter
-        reasonCounter.textContent = `Reason ${currentReasonIndex + 1} of ${reasons.length}`;
+        reasonCounter.textContent = `Lý do ${currentReasonIndex + 1} trên ${reasons.length}`;
         
         currentReasonIndex++;
 
@@ -76,7 +76,7 @@ function displayNewReason() {
                 duration: 0.5,
                 ease: "elastic.out",
                 onComplete: () => {
-                    shuffleButton.textContent = "Enter Our Storylane 💫";
+                    shuffleButton.textContent = "Khám phá hành trình của chúng mình 💫";
                     shuffleButton.classList.add('story-mode');
                     shuffleButton.addEventListener('click', () => {
                         gsap.to('body', {
