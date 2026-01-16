@@ -24,7 +24,7 @@ Create a beautiful, personalized birthday website for your loved one! This templ
 ### Step 1: Fork or Clone This Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/happy-birthday-template.git
+git clone https://github.com/notsointresting/happy-birthday-template.git
 cd happy-birthday-template
 ```
 
