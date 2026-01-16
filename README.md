@@ -267,6 +267,4 @@ MIT License - Feel free to use, modify, and share!
 
 ## Show Your Creation!
 
-Tag us on social media with #HappyBirthdayTemplate and show us your creation!
-
 Made with love for your loved ones.
